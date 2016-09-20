@@ -1,0 +1,29 @@
+{
+  "name": "jupiter-orders-microservice-node",
+  "version": "0.0.1",
+  "description": "Jupiter API Orders Microservice based on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrgarciach/jupiter-orders-microservice-node.git"
+  },
+  "keywords": [
+    "microservices",
+    "node.js"
+  ],
+  "author": "Ruy R. Garcia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rrgarciach/jupiter-orders-microservice-node/issues"
+  },
+  "homepage": "https://github.com/rrgarciach/jupiter-orders-microservice-node#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "morgan": "^1.7.0",
+    "winston": "^2.2.0"
+  }
+}
