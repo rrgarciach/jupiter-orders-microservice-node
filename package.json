@@ -2,8 +2,9 @@
   "name": "jupiter-orders-microservice-node",
   "version": "0.0.1",
   "description": "Jupiter API Orders Microservice based on Node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,10 @@
     "url": "https://github.com/rrgarciach/jupiter-orders-microservice-node/issues"
   },
   "homepage": "https://github.com/rrgarciach/jupiter-orders-microservice-node#readme",
+  "engines": {
+    "node": "^4.4.0",
+    "npm": "^2.14.20"
+  },
   "dependencies": {
     "express": "^4.14.0",
     "mongodb": "^2.2.10",
